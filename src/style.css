@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#0d07b4;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: (--primary-color);
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    
+}
+main{
+    background-color: rgb(6, 246, 6);
+    flex-grow: 1;
+}
+footer{
+    background-color: rgb(115, 117, 118);
+}
