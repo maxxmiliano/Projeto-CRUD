@@ -3,25 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --primary-color:#0d07b4;
-}
+
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 header{
-    background-color: (--primary-color);
-    height: 70px;
+    background-color: rgb(184, 184, 246);
+    height: 80px;
     text-align: center;
     line-height: 70px;
+    box-shadow: 0 1px 2px ;
     
+
 }
 main{
-    background-color: rgb(6, 246, 6);
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 90%;
+    margin: 5vh auto;
+    padding: 40px;
+    box-shadow: 8px 8px 26px #0612bcb5;
+    gap: 30px;
+
+
 }
 footer{
     background-color: rgb(115, 117, 118);
+    width: 100;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    padding: 20px;
 }

@@ -1,0 +1,21 @@
+.titulos{
+    width: 100%;
+    user-select: none;
+    text-align: center;
+
+}
+.titulos th{
+    height: 50px;
+    background-color: bisque;
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+.titulos td{
+    height: 50px;
+    padding: 20px;
+}
+.titulos td:last-child{
+    padding: 0;
+    min-width: 140px;
+    text-align: center;
+}
