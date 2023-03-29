@@ -1,4 +1,7 @@
 # Projeto-CRUD
+### Neste projeto meu desafio e aprender JavaScript tive dificuldade na linguagem.
+### Mas ainda assim consegui ter um pouco mais de afinidade com os comandos 
+### Preciso praticar mais e melhorar esse projeto
 
 ##projeto CRUD 
 ![image](https://user-images.githubusercontent.com/72661974/228147579-d3fe4a4b-8309-48ba-9cdb-ee91df66cb0d.png)
