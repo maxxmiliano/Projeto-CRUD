@@ -20,10 +20,10 @@
     </header>
     <main>
         <button type="button" class="button blue" id="cadastrocliente">cadastrar</button>
-        <table class="titulos">
+        <table id="tableC" class="titulos">
             <thead>
-                <tr>
-                    <th>Nome</th>
+                 <tr>
+                    <th>nome</th>
                     <th>E-mail</th>
                     <th>Celular</th>
                     <th>CEP</th>
@@ -31,36 +31,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Joao vitor</td>
-                    <td>Joao@gmail.com</td>
-                    <td>(67)999877886</td>
-                    <td>79-876-54</td>
-                    <td>
-                        <button type="button" class="button green">editar</button>
-                        <button type="button" class="button red">excluir</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>jose</td>
-                    <td>Jose@gmail.com</td>
-                    <td>(67)999879885</td>
-                    <td>79-876-40</td>
-                    <td>
-                        <button type="button" class="button green">editar</button>
-                        <button type="button" class="button red">excluir</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Miliano</td>
-                    <td>miliano@gmail.com</td>
-                    <td>(67)999877812</td>
-                    <td>41-876-79</td>
-                    <td>
-                        <button type="button" class="button green">editar</button>
-                        <button type="button" class="button red">excluir</button>
-                    </td>
-                </tr>
+                
                 
             </tbody>
         </table>
@@ -70,11 +41,11 @@
                     <h2>cadastrar cliente</h2>
                     <span class="modal-close" id="modalClose">&#10006;</span>
                 </header>
-                <form class="modal-form">
-                    <input type="text" class="modal-field" placeholder="Nome">
-                    <input type="email" class="modal-field" placeholder="E-mail">
-                    <input type="text" class="modal-field" placeholder="Celular">
-                    <input type="text" class="modal-field" placeholder="CEP">
+                <form id="form" class="modal-form">
+                    <input type="text" id="nome" data-index="new" class="modal-field" placeholder="nome cliente" required>
+                    <input type="email" id="email" class="modal-field" placeholder="E-mail" required>
+                    <input type="text" id="celular" class="modal-field" placeholder="Celular" required>
+                    <input type="text" id="cep" class="modal-field" placeholder="CEP" required>
                 </form>
                 <footer class="modal-footer">
                     <button id="salvar" class="button green">salvar</button>
