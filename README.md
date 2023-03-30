@@ -1,3 +1,7 @@
+## Este projeto esta com erro!!! estou tentando corrigir 
+
+
+
 # Projeto-CRUD
 ### Neste projeto meu desafio e aprender JavaScript tive dificuldade na linguagem.
 ### Mas ainda assim consegui ter um pouco mais de afinidade com os comandos 
