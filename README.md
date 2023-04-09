@@ -3,13 +3,13 @@
 
 
 # Projeto-CRUD
-### Neste projeto meu desafio fazer esse crud, esses comandos sao importantes que tenho que aprender
-e também a praticar a linguagem JavaScript e trabalhar com armazenamento
-no local storage.
-###  tive algumas dificuldads mas ainda assim consegui ter um pouco mais de afinidade com os comandos 
+### Neste projeto meu desafio era fazer um crud, Esses sao comandos importantes que tenho que aprender.
+### Também pratiquei a linguagem JavaScript e a trabalhar com armazenamento no local storage.
+
+###  tive algumas dificuldads em armazenar os dados no localStorage mas ainda assim consegui ter um pouco mais de afinidade com os comandos 
 ### Preciso praticar e continuarei sempre para ter mais afinidade com esses comandos.
 
-##projeto CRUD 
+## Projeto CRUD 
 
 ![image](https://user-images.githubusercontent.com/72661974/228147579-d3fe4a4b-8309-48ba-9cdb-ee91df66cb0d.png)
 
