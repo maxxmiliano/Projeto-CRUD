@@ -1,6 +1,5 @@
-'use scrict'
-// trabalhando com local storage
-// trabalhando com modal
+'use strict'
+
 const openModal = () => document.getElementById('modal')
   .classList.add('active')
 
@@ -10,13 +9,9 @@ const openModal = () => document.getElementById('modal')
   
  } 
    
-
-
-
- // criando funcoes 
- const getLocalstorage = () => JSON.parse(localStorage.getItem('db_client')) ?? []
- const setLocalstorage = (dbClient) => localStorage.setItem("db_client" , JSON.stringify(dbClient))
-  //inicio dos eventos
+  const getLocalstorage = () => JSON.parse(localStorage.getItem('db_client')) ?? []
+  const setLocalstorage = (dbClient) => localStorage.setItem("db_client" , JSON.stringify(dbClient))
+  
 
   const deleteClient = (index) => {
     const dbClient = readClient()
@@ -90,8 +85,8 @@ const createRow = (client, index) => {
        <td>${client.cep}</td>
 
        <td>
-          <button type="button" class="button green" id="edit-${index}" >editar</button>
-          <button type="button" class="button red" id="delete-${index}" >excluir</button>
+          <button type="button" class="button green" id="edit-${index}" >Editar</button>
+          <button type="button" class="button red" id="delete-${index}" >Excluir</button>
        </td>
   `
     document.querySelector('#tableClient>tbody').appendChild(newRow)
@@ -109,7 +104,7 @@ const createRow = (client, index) => {
 
  const updateTable = () => {
    const dbClient = readClient()
-   clearFields()
+   clearTable()
    dbClient.forEach(createRow)
 }
 
@@ -125,7 +120,7 @@ const fillFields = (client) => {
     const client = readClient()[index]
      client.index = index
      fillFields(client)
-     document.querySelector('.modal-header>h2').textContent = `editando ${client.nome}`
+     document.querySelector(".modal-header>h2").textContent = `editando ${client.nome}`
      openModal()
 }
 
