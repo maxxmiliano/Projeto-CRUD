@@ -27,16 +27,16 @@ main{
     width: 90%;
     margin: 5vh auto;
     padding: 40px;
-    box-shadow: 8px 8px 26px #0612bcb5;
+    box-shadow: 10px 10px 28px #040a64;
     gap: 30px;
 
 
 }
 footer{
-    background-color: rgb(115, 117, 118);
+    background-color: rgb(171, 135, 228);
     width: 100;
     text-align: center;
-    font-weight: 200;
+    font-weight: 700;
     font-style: italic;
     padding: 20px;
 }

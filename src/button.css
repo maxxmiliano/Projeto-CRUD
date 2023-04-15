@@ -2,7 +2,7 @@
     border-style: none;
     height: 50px;
     padding: 10px 20px;
-    background-color: rgb(21, 21, 52);
+    background-color: rgb(56, 56, 128);
     color: #fff;
     font-size: 1.5rem;
     border-radius: 8px;
@@ -10,16 +10,45 @@
     transition: box-shadow .1s ease;
 }
 .button.blue{
-    background-color: rgb(11, 7, 249);
-   
+    background-image: linear-gradient(to right, #070db5 , #6681f6);
+}
+.button.blue:hover {
+    box-shadow: rgba(198,67,238,0.4)-5px 5px,
+    rgba(185,46,240,0.3)-10px 10px,
+    0px 5px 5px #07529dd6;
+
+transform: translate(4px, -4px);
+}
+.button.blue:active {
+    transform: scale(0.9);
 }
 .button.green{
     background-color:rgb(43, 255, 0) ;
     border-radius: 8px;
 }
+.button.green:hover {
+    box-shadow: rgba(198,67,238,0.4)-5px 5px,
+    rgba(185,46,240,0.3)-10px 10px,
+    0px 5px 5px #07529dd6;
+
+transform: translate(4px, -4px);
+}
+.button.green:active {
+    transform: scale(0.9);
+}
 .button.red{
     background-color: red;
     border-radius: 8px;
+}
+.button.red:hover {
+    box-shadow: rgba(198,67,238,0.4)-5px 5px,
+    rgba(185,46,240,0.3)-10px 10px,
+    0px 5px 5px #07529dd6;
+
+transform: translate(4px, -4px);
+}
+.button.red:active {
+    transform: scale(0.9);  
 }
 .button:hover{
    box-shadow: inset 200px 0 0 rgb(21, 21, 52) ;
