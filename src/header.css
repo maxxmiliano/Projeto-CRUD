@@ -1,11 +1,8 @@
 .header{
     color: transparent;
     -webkit-text-stroke-color: rgb(10, 10, 9);
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     font-size: 2rem;
     border: 2px;
     background-image: linear-gradient(to right, #e436fb , #36bdfb);
-}
-h1 {
-    border: 2px;
 }
