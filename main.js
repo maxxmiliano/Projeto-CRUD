@@ -27,18 +27,11 @@ const openModal = () => document.getElementById('modal')
     
    const readClient = () => getLocalstorage()
 
- const createClient = (client) => { //create
+ const createClient = (client) => { 
    const dbClient = getLocalstorage()
    dbClient.push (client)
    setLocalstorage(dbClient)
  }
-
-
-
- 
-
- 
- 
  const isValidFields = () => {
     return document.getElementById('form').reportValidity()
  }
@@ -92,12 +85,7 @@ const createRow = (client, index) => {
     document.querySelector('#tableClient>tbody').appendChild(newRow)
 }
 
-  
-
-
-  
-
-   const clearTable = () => {
+ const clearTable = () => {
     const rows = document.querySelectorAll('#tableClient>tbody tr')
     rows.forEach(row => row.parentNode.removeChild(row))
   }
@@ -145,11 +133,7 @@ const fillFields = (client) => {
     }
  }
 
- 
-
-  
-
-updateTable()
+ updateTable()
 
     document.getElementById('cadastrocliente') 
       .addEventListener('click', openModal)
